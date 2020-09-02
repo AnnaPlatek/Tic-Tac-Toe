@@ -251,5 +251,5 @@ files:
         TicTacToeTest('tictactoe.tictactoe').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/73/stages/402/implement
-status: Unchecked
+status: Failed
 record: -1

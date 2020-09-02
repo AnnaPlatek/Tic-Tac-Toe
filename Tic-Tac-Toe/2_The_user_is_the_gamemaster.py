@@ -48,7 +48,7 @@ win6 = [cells_values[2], cells_values[5], cells_values[8]]
 
 # diagonal victory
 win7 = [cells_values[0], cells_values[4], cells_values[8]]
-win8 = [cells_values[6], cells_values[7], cells_values[8]]
+win8 = [cells_values[2], cells_values[4], cells_values[6]]
 
 victory_variants = [win1, win2, win3, win4, win5, win6, win7, win8]
 
@@ -74,8 +74,3 @@ elif x_victory in victory_variants and o_victory not in victory_variants:
 # O wins
 elif x_victory not in victory_variants and o_victory in victory_variants:
     print("O wins")
-
-
-
-
-
