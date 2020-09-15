@@ -1,0 +1,7 @@
+word = input()
+new_word = word.replace(",",'')
+new_word = new_word.replace(".",'')
+new_word = new_word.replace("!",'')
+new_word = new_word.replace("?",'')
+new_word = new_word.lower()
+print(new_word)
